@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lesson_2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <label for="pass">Password:</label>
+        <input type="password" id="pass">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    <br>
+    <br>
+    <br>
+    <form>
+        <label for="FN"><b>First name:</b></label>
+        <input type="text" id="FN" required>
+        <label for="LN"><b>Last Name:</b></label>
+        <input type="text" id="LN" required>
+        <label for="DOB"><b>Date of Birth:</b></label>
+        <input type="date" name="" id="DOB" required>
+        <span class="gend"><b>Gender</b></span>
+        <input class="gend" type="radio" name="sex" id="M" value="Male" required><label for="M">Male</label>
+        <input class="gend" type="radio" name="sex" id="F" value="Female" required><label for="F">Female</label>
+        <label for="Email"><b>Email:</b></label>
+        <input type="email" id="Email" required>
+        <label for="passw1"><b>Password:</b></label>
+        <input type="password" id="passw1" required>
+        <label for="passw2"><b>Re-type password:</b></label>
+        <input type="password" id="passw2" required>
+        <label for="country"><b>Country:</b></label>
+        <select name="country" required>
+            <option selected>Choose your country of residence</option>
+            <option value="Ukraine">Ukraine</option>
+            <option value="Ukraine">USA</option>
+            <option value="Ukraine">Lithuania</option>
+            <option value="Ukraine">Spain</option>
+            <option value="Ukraine">Italy</option>
+            <option value="Ukraine">France</option>
+            <option value="Ukraine">Germany</option>
+        </select><br>
+        <label for="address"><b>Address:</b></label required>
+        <input type="text" id="address" required>
+        <label for="tel"><b>Phone:</b></label>
+        <input type="tel" id="tel" required>
+        <span><b>Comment:</b></span>
+        <textarea name="comment" id="" cols="30" rows="4" required
+            placeholder="Write a few words about your favorite book">
+        </textarea>
+        <input type="submit" value="Register" id="submit">
+    </form>
+    <br>
+    <br>
+    <br>
+    <form>
+        <input type="datetime-local">
+        <br>
+        <label for="serch">Search:</label><input type="search" name="" id="search">
+    </form>
+</body>
+
+</html>

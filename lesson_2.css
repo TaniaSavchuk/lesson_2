@@ -1,0 +1,56 @@
+html {
+    background-color: rgb(201, 239, 241);
+}
+
+label,
+textarea,
+span {
+    display: block;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+body {
+    display: block;
+    margin: 0 auto;
+    width: 576px;
+}
+
+form {
+    margin: 0 auto;
+    width: 459px;
+}
+
+input:not(.gend),
+textarea,
+select {
+    width: 439px;
+    height: 27px;
+    background: #efefef;
+    border: 1px solid #bebebe;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 300px;
+    background: url(./bg.jpg) right no-repeat #efefef;
+}
+
+#submit {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 127px;
+    height: 38px;
+    border: 0px;
+    background-color: rgb(86, 179, 241);
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+#submit:hover {
+    opacity: .7;
+}
